@@ -1,7 +1,9 @@
+import { UserButton } from "@clerk/nextjs";
+
 const RootPage = () => {
     return ( 
         <div>
-            Rootpage (Protected)
+            <UserButton afterSignOutUrl="/" />
         </div>
      );
 }
