@@ -1,1 +1,1 @@
-# ai-genius
+# ai-companion
